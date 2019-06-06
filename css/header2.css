@@ -1,0 +1,26 @@
+  .input {
+    padding: 6px;
+    border: none;
+    font-size: 17px;
+  }
+  
+  @media screen and (max-width: 991px) {
+  .input {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+    }
+    .input {
+      border: 1px solid #ccc;
+    }
+}
+}
+
+  @media(max-width: 332px){
+  .mx-auto{
+      display: none;
+  }
+}
