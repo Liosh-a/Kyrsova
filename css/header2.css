@@ -17,10 +17,16 @@
       border: 1px solid #ccc;
     }
 }
+.img1{
+margin-top: 5px;
 }
 
   @media(max-width: 332px){
   .mx-auto{
-      display: none;
+      display: none!important;
   }
+}
+
+header aside{
+  float: right;;
 }
